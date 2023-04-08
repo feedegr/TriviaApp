@@ -1,0 +1,12 @@
+.gameCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* Establecer la altura al 50% de la altura de la ventana gráfica para que se centre verticalmente */
+    border: 2px solid white;
+}
+  
+  .nextButton{
+    padding-left: 100px;
+    padding-right: 100px;
+  }

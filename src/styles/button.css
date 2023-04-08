@@ -1,0 +1,11 @@
+.btn{
+    margin-left: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+
+.gameCont{
+    border-color: aliceblue;
+}
