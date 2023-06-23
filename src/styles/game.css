@@ -1,12 +1,45 @@
 .gameCont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50vh; /* Establecer la altura al 50% de la altura de la ventana gráfica para que se centre verticalmente */
-    border: 2px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Establecer la altura al 50% de la altura de la ventana gráfica para que se centre verticalmente */
 }
-  
-  .nextButton{
-    padding-left: 100px;
-    padding-right: 100px;
+
+
+
+.ol,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nextButton {
+  margin-left: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.animatedcolor {
+  animation: colorAnimation 7s infinite;
+  border: none;
+}
+
+@keyframes colorAnimation {
+  0%,
+  25% {
+    background-color: #ff0000;
   }
+  25%,
+  50% {
+    background-color: #00ff00;
+  }
+  50%,
+  75% {
+    background-color: #0000ff;
+  }
+  75%,
+  100% {
+    background-color: #f7950b;
+  }
+}

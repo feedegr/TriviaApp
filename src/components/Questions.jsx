@@ -5,8 +5,8 @@ export const Questions = ({question}) => {
   
   
   return (
-    <div>
-      <h1>{question}</h1>
+    <div className='container-fluid'>
+      <h3>{question}</h3>
     </div>
   )
 }
